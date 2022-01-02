@@ -3,6 +3,6 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://cloud_config_eureka_server_1:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://eurekaserver:8761/eureka}
   instance:
     preferIpAddress: true
